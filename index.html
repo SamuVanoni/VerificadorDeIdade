@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <div>
+        <h1>Verificador de Idade</h1>
+    </div>
+    <section>
+        <div>
+            <p>Data do aniversário: 
+                <input type="number" id="numero">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radSex" id="masc" checked>
+                <label for="masc">Homem</label>
+                <input type="radio" name="radSex" id="fem">
+                <label for="fem">Mulher</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="resultado">
+            Preencha os dados para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <i class="fa-regular fa-copyright" style="color: #ffffff;"></i>SamuVanoni
+    </footer> 
+    <script src="./script/script.js"></script>
+</body>
+</html>
